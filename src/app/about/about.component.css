@@ -1,0 +1,9 @@
+/* sticky footer */
+.main-content {
+	min-height: calc(100vh - 116px);
+}
+@media (max-width: 600px){
+    .main-content {
+        min-height: calc(100vh - 108px);
+    }
+}

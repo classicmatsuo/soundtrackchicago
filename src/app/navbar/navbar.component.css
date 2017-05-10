@@ -1,0 +1,23 @@
+.docs-navbar {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 8px 16px;
+}
+.docs-navbar > .mat-button:last-child {
+    margin-left: auto;
+}
+.mat-button {
+	padding: 0 2%;
+	min-width: 60px;
+}
+:host .docs-navbar {
+	background: #00bcd4;
+}
+:host {
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}

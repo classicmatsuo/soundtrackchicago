@@ -1,0 +1,59 @@
+.mat-button {
+	padding: 0 2%;
+	min-width: 40px;
+}
+.app-sidenav {
+	width: 240px;
+	box-shadow: 3px 0 6px rgba(0,0,0,.24);
+}
+.app-toolbar-filler {
+	flex: 1 1 auto;
+}
+.app-sidenav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.app-sidenav li {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin: 0;
+    padding: 0;
+    border-color: rgba(0,0,0,.06);
+    color: rgba(0,0,0,.54);
+}
+.app-sidenav li:hover a{
+	background: rgba(0,0,0,.25);
+	color: #fff;
+}
+.app-sidenav li a:focus{
+    outline: none;
+}
+.app-sidenav li:last-child {
+    border-color: transparent;
+}
+.app-sidenav li>a {
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 47px;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    padding: 0 16px;
+    position: relative;
+    color: rgba(0,0,0,.54);
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+/* sticky footer */
+.main-content {
+    min-height: calc(100vh - 180px);
+}
+@media (max-width: 600px){
+    .main-content {
+        min-height: calc(100vh - 172px);
+    }
+}
+
