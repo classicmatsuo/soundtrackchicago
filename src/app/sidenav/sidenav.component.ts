@@ -11,6 +11,7 @@ export class SidenavComponent implements OnInit {
 	    {name: 'Burritos', rating: 'Great'},
 	    {name: 'French fries', rating: 'Pretty good'},
 	  ];
+  title = 'Soundtrack Chicago';
   constructor() { }
 
   ngOnInit() {

@@ -6,8 +6,10 @@
 			</h3>
 			<div class="contact-info">
 				4544 North Lincoln Avenue, Chicago, IL 60625<br>
-				<a href="tel:+1-773-728-6000">(773) 728-6000</a><br>
-				Mon – Thurs: 9AM - 10PM | Fri – Sun: 9AM - 10PM
+				Mon – Thurs: 9AM - 10PM | Fri – Sun: 9AM - 10PM<br>
+				<button md-icon-button>
+					<a href="tel:+1-773-728-6000">(773) 728-6000</a>
+				</button>
 			</div>
 			<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" [disableDefaultUI]="false" >
 			  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>

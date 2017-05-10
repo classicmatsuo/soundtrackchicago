@@ -21,7 +21,7 @@
 				<div class="mat-button-ripple mat-ripple" md-ripple=""></div>
 				<div class="mat-button-focus-overlay"></div>
 			</button>
-		    Soundtrack of Chicago
+		    {{ title }}
 		    <span class="app-toolbar-filler"></span>
 
 			<md-menu #appMenu="mdMenu" [overlapTrigger]="false" >
@@ -45,10 +45,9 @@
 		    	</md-list-item>
 		    	</md-list> 
 		    </md-card> -->
-		    <md-card>
-		    	<router-outlet>
-		    	</router-outlet>
-		    </md-card>
+		    
+	    	<router-outlet>
+	    	</router-outlet>
 	    </div>
     </div>
     <app-footer>

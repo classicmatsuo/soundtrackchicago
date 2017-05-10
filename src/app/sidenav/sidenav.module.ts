@@ -1,7 +1,8 @@
 import { NgModule }       from '@angular/core';
 import { CommonModule }   from '@angular/common';
 import { FormsModule }    from '@angular/forms';
-
+import { SidenavRoutingModule } from './sidenav-routing.module';
+import { MaterialModule } from '@angular/material';
 
 import { PlaceholderComponent }    from './genre/placeholder.component';
 import { Genre1Component }  from './genre/genre1.component';
@@ -11,14 +12,12 @@ import { Genre4Component }  from './genre/genre4.component';
 import { Genre5Component }  from './genre/genre5.component';
 import { Genre6Component }  from './genre/genre6.component';
 
-
-import { SidenavRoutingModule } from './sidenav-routing.module';
-
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
-    SidenavRoutingModule
+    SidenavRoutingModule,
+    MaterialModule
   ],
   declarations: [
     PlaceholderComponent,
