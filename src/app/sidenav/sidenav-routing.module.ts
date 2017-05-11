@@ -10,6 +10,7 @@ import { Genre4Component }  from './genre/genre4.component';
 import { Genre5Component }  from './genre/genre5.component';
 import { Genre6Component }  from './genre/genre6.component';
 
+
 const genreRoutes: Routes = [
 	{ path: 'home', component: SidenavComponent,
     children: [

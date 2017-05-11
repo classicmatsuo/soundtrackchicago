@@ -8,6 +8,7 @@ import { SponsorsComponent } from '../sponsors/sponsors.component';
 
 import { PlaceholderComponent }  from '../sidenav/genre/placeholder.component';
 
+
 const routes: Routes = [
 	{ path: 'home', component: SidenavComponent,
 		children: [
@@ -25,4 +26,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
-export class AppRoutesRoutingModule { }
+export class AppRoutesRoutingModule {}

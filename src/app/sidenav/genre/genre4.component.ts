@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 
 @Component({
   selector: 'genre4',
@@ -8,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Genre4Component implements OnInit {
 
-  constructor() { }
+  constructor(private _RouteTitles:RoutesTitles){
+    _RouteTitles.name.next('Folk Music');
+  }
 
   ngOnInit() {
   }

@@ -1,18 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { RoutesTitles } from '../app-routes/app-routes-titles.service';
 
 @Component({
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.css']
+  styleUrls: ['./sidenav.component.css'],
+  providers: [RoutesTitles]
 })
 export class SidenavComponent implements OnInit {
-	foods: any[] = [
-	    {name: 'Pizza', rating: 'Excellent'},
-	    {name: 'Burritos', rating: 'Great'},
-	    {name: 'French fries', rating: 'Pretty good'},
-	  ];
-  title = 'Soundtrack Chicago';
-  constructor() { }
+
+  RoutesTitles = "Soundtrack of Chicago";
+  constructor(private _RoutesTitles: RoutesTitles){
+    this._RoutesTitles.name.subscribe(n => this.RoutesTitles = n);
+  }
 
   ngOnInit() {
   }

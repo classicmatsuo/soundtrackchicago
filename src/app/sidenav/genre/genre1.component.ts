@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 
 @Component({
   selector: 'genre1',
@@ -6,14 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   `
   md-card {
-		display: inline-grid;
+		margin: 1%;
 	}
 	.genre1 {
-		width: 45%;
+		width: 40%;
+		margin: 2%;
+		display: inline-grid;
 	}
 	@media only screen and (max-width: 768px){
 		.genre1 {
-			width: 92%;
+			width: 90%;
 		}
 	}
 	.event1image {
@@ -28,12 +31,21 @@ import { Component, OnInit } from '@angular/core';
 		display: block;
 		color: #555;
 	}
+	.event-container {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	.card-image {
+		max-width: 100%;
+	}
   `
   ]
 })
 export class Genre1Component implements OnInit {
-	title = 'stuff';
-  constructor() { }
+
+  constructor(private _RouteTitles:RoutesTitles){
+    _RouteTitles.name.next('Chicago House Legacy Project');
+  }
 
   ngOnInit() {
   }
