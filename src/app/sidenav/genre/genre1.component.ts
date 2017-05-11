@@ -24,6 +24,10 @@ import { Component, OnInit } from '@angular/core';
 		background-image: url('http://placehold.it/200/000000/ffffff?text=CHLP');
 		background-size: cover;
 	}
+	.lead {
+		display: block;
+		color: #555;
+	}
   `
   ]
 })

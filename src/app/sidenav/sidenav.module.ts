@@ -26,7 +26,7 @@ import { Genre6Component }  from './genre/genre6.component';
     Genre3Component,
     Genre4Component,
     Genre5Component,
-    Genre6Component,
+    Genre6Component
   ],
   providers: [ ]
 })
