@@ -11,6 +11,7 @@ import { Genre3Component }  from './genre/genre3.component';
 import { Genre4Component }  from './genre/genre4.component';
 import { Genre5Component }  from './genre/genre5.component';
 import { Genre6Component }  from './genre/genre6.component';
+import { Genre7Component }  from './genre/genre7.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { Genre6Component }  from './genre/genre6.component';
     Genre3Component,
     Genre4Component,
     Genre5Component,
-    Genre6Component
+    Genre6Component,
+    Genre7Component
   ],
   providers: [ ]
 })

@@ -12,9 +12,8 @@ export class stuff {
 })
 
 export class AppComponent {
-  title = 'Soundtrack Chicago';
-  
-  	constructor(){
+
+	constructor(){
 
 	}
 }

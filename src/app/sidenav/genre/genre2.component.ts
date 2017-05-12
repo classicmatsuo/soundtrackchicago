@@ -6,17 +6,15 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
   templateUrl: './genre2.component.html',
   styles: [
   `
-  md-card {
-		margin: 1%;
-	}
 	.genre2 {
-		width: 40%;
-		margin: 2%;
-		display: inline-grid;
+		// width: 90%;
+		margin: 1% auto;
 	}
-	@media only screen and (max-width: 768px){
+	@media only screen and (min-width: 900px){
 		.genre2 {
-			width: 90%;
+			width: 42.5%;
+			margin: 1%;
+			display: inline-grid;
 		}
 	}
 	.event1image {
@@ -24,19 +22,12 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		background-size: cover;
 	}
 	.event2image {
-		background-image: url('http://placehold.it/200/000000/ffffff?text=Bronzeville');
+		background-image: url('http://placehold.it/200/000000/ffffff?text=BLUES');
 		background-size: cover;
-	}
-	.lead {
-		display: block;
-		color: #555;
-	}
-	.event-container {
-		max-width: 700px;
-		margin: 0 auto;
 	}
 	.card-image {
 		max-width: 100%;
+		margin-bottom: 16px;
 	}
   `
   ]

@@ -9,6 +9,7 @@ import { Genre3Component }  from './genre/genre3.component';
 import { Genre4Component }  from './genre/genre4.component';
 import { Genre5Component }  from './genre/genre5.component';
 import { Genre6Component }  from './genre/genre6.component';
+import { Genre7Component }  from './genre/genre7.component';
 
 
 const genreRoutes: Routes = [
@@ -20,6 +21,7 @@ const genreRoutes: Routes = [
     	{ path: 'genre4', component: Genre4Component },
     	{ path: 'genre5', component: Genre5Component },
     	{ path: 'genre6', component: Genre6Component },
+      { path: 'genre7', component: Genre7Component },
       { path: '', component: PlaceholderComponent }
     ]
   }

@@ -6,17 +6,25 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
   templateUrl: './genre1.component.html',
   styles: [
   `
-  md-card {
-		margin: 1%;
+  	md-card {
+		margin: 1% auto;
+	}
+	.genre1-full {
+		max-width: 700px;
+		margin: 1% auto;
 	}
 	.genre1 {
-		width: 40%;
-		margin: 2%;
-		display: inline-grid;
+		width: 92%;
+		margin: 1% auto;
 	}
-	@media only screen and (max-width: 768px){
+	@media only screen and (min-width: 768px){
+		md-card {
+			margin: 1%;
+		}
 		.genre1 {
-			width: 90%;
+			width: 40%;
+			margin: auto;
+			display: inline-grid;
 		}
 	}
 	.event1image {
@@ -37,6 +45,10 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 	}
 	.card-image {
 		max-width: 100%;
+		margin-bottom: 16px;
+	}
+	h2 {
+		font-family: 'Roboto Condensed', sans-serif;
 	}
   `
   ]

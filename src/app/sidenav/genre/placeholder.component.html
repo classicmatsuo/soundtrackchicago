@@ -1,5 +1,26 @@
-<md-card>
+<!-- <md-card>
 	<div class="placeholder">
 		<img src="/assets/SOTC_HomepagePlaceholder_050317.png"/>
 	</div>
 </md-card>
+ -->
+
+ <md-grid-list cols="8" rowHeight="100px">
+  <md-grid-tile
+      *ngFor="let row1tile of row1"
+      [colspan]="row1tile.cols"
+      [rowspan]="row1tile.rows"
+      [style.background]="row1tile.color">
+    {{row1tile.text}}
+  </md-grid-tile>
+</md-grid-list>
+
+ <md-grid-list cols="6" rowHeight="100px">
+  <md-grid-tile
+      *ngFor="let row2tile of row2"
+      [colspan]="row2tile.cols"
+      [rowspan]="row2tile.rows"
+      [style.background]="row2tile.color">
+    {{row2tile.text}}
+  </md-grid-tile>
+</md-grid-list>
