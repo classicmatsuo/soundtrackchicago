@@ -1,4 +1,4 @@
-<md-card *ngFor="let mainevent of mainevents; index as j">
+<md-card *ngFor="let mainevent of mainevents; index as j" class="card-container">
   <div class="event-container">
     <h2>{{mainevent.title}}</h2>
     <p [innerHTML]="mainevent.description">

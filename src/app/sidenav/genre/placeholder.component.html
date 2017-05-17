@@ -1,11 +1,11 @@
 <!-- <md-card>
 	<div class="placeholder">
-		<img src="/assets/SOTC_HomepagePlaceholder_050317.png"/>
+		<img src="/assets/SOTC_HomepagePlaceholder_051717.png"/>
 	</div>
-</md-card>
- -->
+</md-card> -->
+
 <div class="genre-list">
-  <md-card *ngFor="let genre of genres; index as i;" class="{{genre.name}}" routerLink="{{genre.link}}" routerLinkActive="active">
+  <md-card *ngFor="let genre of genres; index as i;" class="genre {{genre.name}}" routerLink="{{genre.link}}" routerLinkActive="active">
     <md-card-header>
       <md-card-title>{{genre.name}}</md-card-title>
       <md-card-subtitle>{{genre.description}}</md-card-subtitle>

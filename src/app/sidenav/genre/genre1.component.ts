@@ -5,7 +5,12 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
   selector: 'genre1',
   templateUrl: './genre1.component.html',
   styles: [
-  `
+  `.card-container {
+		display: flex !important;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	}
   	md-card {
 		margin: 1% auto;
 	}
@@ -23,7 +28,7 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		}
 		.genre1 {
 			width: 40%;
-			margin: auto;
+			// margin: auto;
 			display: inline-grid;
 		}
 	}

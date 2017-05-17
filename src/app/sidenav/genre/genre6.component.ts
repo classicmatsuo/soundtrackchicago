@@ -6,6 +6,12 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
   templateUrl: './genretemplate.component.html',
   styles: [
   `
+  	.card-container {
+		display: flex !important;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-items: flex-start;
+	}
 	.genre6 {
 		// width: 90%;
 		margin: 1% auto;

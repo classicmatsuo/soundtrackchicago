@@ -1,32 +1,34 @@
-<md-card *ngFor="let event of events; index as i;" class="{{event.genre}}">
-  <md-card-header>
-    <div md-card-avatar class="event{{i +1}}image"></div>
-    <md-card-title>{{event.title}}<br>{{event.lead}}<br><em>{{event.admission}}</em></md-card-title>
-    <md-card-subtitle>{{event.location}}<br>
-    {{event.date}} {{event.time}}</md-card-subtitle>
-  </md-card-header>
-  <img class="card-image" src="{{event.image}}">
-  <md-card-content>
-    <p>
-      {{event.description}}
-    </p>
-    <p *ngIf="event.link">
-      <a href="{{event.link}}" target="_blank">{{event.link}}</a>
-    </p>
-    <md-tab-group dynamicHeight *ngIf="event.tabs">
-      <md-tab *ngFor="let tab of event.tabs">
-        <ng-template md-tab-label class="tab-label">
-          {{tab.tabname}}
-        </ng-template>
-        <h4>{{tab.title}}</h4>
-        <img *ngIf="tab.image" class="card-image" src="{{tab.image}}">
-        <div [innerHTML]="tab.content">
-          
-        </div>
-      </md-tab>
-    </md-tab-group>
-  </md-card-content>
-</md-card>
+<div class="card-container">
+  <md-card *ngFor="let event of events; index as i;" class="{{event.genre}}">
+    <md-card-header>
+      <div md-card-avatar class="event{{i +1}}image"></div>
+      <md-card-title>{{event.title}}<br>{{event.lead}}<br><em>{{event.admission}}</em></md-card-title>
+      <md-card-subtitle>{{event.location}}<br>
+      {{event.date}} {{event.time}}</md-card-subtitle>
+    </md-card-header>
+    <img class="card-image" src="{{event.image}}">
+    <md-card-content>
+      <p>
+        {{event.description}}
+      </p>
+      <p *ngIf="event.link">
+        <a href="{{event.link}}" target="_blank">{{event.link}}</a>
+      </p>
+      <md-tab-group dynamicHeight *ngIf="event.tabs">
+        <md-tab *ngFor="let tab of event.tabs">
+          <ng-template md-tab-label class="tab-label">
+            {{tab.tabname}}
+          </ng-template>
+          <h4>{{tab.title}}</h4>
+          <img *ngIf="tab.image" class="card-image" src="{{tab.image}}">
+          <div [innerHTML]="tab.content">
+            
+          </div>
+        </md-tab>
+      </md-tab-group>
+    </md-card-content>
+  </md-card>
+</div>
 
 
 
