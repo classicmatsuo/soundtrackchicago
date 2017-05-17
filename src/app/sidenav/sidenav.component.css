@@ -9,6 +9,20 @@
 .app-toolbar-filler {
 	flex: 1 1 auto;
 }
+.app-sidenav h3 {
+    color: #fff;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    background: #00bcd4;
+    line-height: 3em;
+    margin: 0;
+    padding: 0 16px;
+    font-weight: 500;
+}
+.app-sidenav .dates {
+    font-size: 0.75em;
+    font-style: italic;
+    padding-left: 5px;
+}
 .app-sidenav ul {
     list-style-type: none;
     margin: 0;

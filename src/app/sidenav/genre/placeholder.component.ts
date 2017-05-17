@@ -87,8 +87,7 @@ export class PlaceholderComponent implements OnInit {
       description: 'Title TBD',
       image: '',
       link: 'genre7'
-    },
-
+    }
   ];
   constructor() { }
 

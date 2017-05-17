@@ -1,9 +1,3 @@
-<!-- <md-card>
-	<div class="placeholder">
-		<img src="/assets/SOTC_HomepagePlaceholder_051717.png"/>
-	</div>
-</md-card> -->
-
 <div class="genre-list">
   <md-card *ngFor="let genre of genres; index as i;" class="genre {{genre.name}}" routerLink="{{genre.link}}" routerLinkActive="active">
     <md-card-header>
@@ -13,27 +7,3 @@
     <img class="card-image" src="{{genre.image}}">
   </md-card>
 </div>
-
-
-
-<!--  <md-grid-list cols="8" rowHeight="100px">
-  <md-grid-tile
-      *ngFor="let row1tile of row1"
-      [colspan]="row1tile.cols"
-      [rowspan]="row1tile.rows"
-      [style.background]="row1tile.color">
-    {{row1tile.text}}
-  </md-grid-tile>
-</md-grid-list>
-
- <md-grid-list cols="3" rowHeight="100px" gutterSize = "10px">
-  <md-grid-tile
-      *ngFor="let row2tile of row2"
-      [colspan]="row2tile.cols"
-      [rowspan]="row2tile.rows"
-      [style.background]="row2tile.color"
-      [style.border]="row2tile.border"
-      >
-    {{row2tile.text}}
-  </md-grid-tile>
-</md-grid-list> -->

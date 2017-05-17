@@ -2,14 +2,16 @@
 	<div class="mat-sidenav-backdrop"></div>
 	<md-sidenav #sidenav class="app-sidenav mat-sidenav">
 		<nav>
+			<h3>Music Genres</h3>
 			<ul>
-				<li><a href="genre1" routerLink="genre1" routerLinkActive="active" (click)="sidenav.close()">House</a></li>
+				<li *ngFor="let navLink of navLinks"><a href="{{navLink.link}}" routerLink="{{navLink.link}}" routerLinkActive="active" (click)="sidenav.close()">{{navLink.name}} <span class="dates">{{navLink.dates}}</span></a></li>
+				<!-- <li ><a href="genre1" routerLink="genre1" routerLinkActive="active" (click)="sidenav.close()">House</a></li>
 				<li><a href="/genre2" routerLink="genre2" routerLinkActive="active" (click)="sidenav.close()">Blues</a></li>
 				<li><a href="/genre3" routerLink="genre3" routerLinkActive="active" (click)="sidenav.close()">Jazz</a></li>
 				<li><a href="/genre4" routerLink="genre4" routerLinkActive="active" (click)="sidenav.close()">Folk</a></li>
 				<li><a href="/genre5" routerLink="genre5" routerLinkActive="active" (click)="sidenav.close()">Gospel</a></li>
 				<li><a href="/genre6" routerLink="genre6" routerLinkActive="active" (click)="sidenav.close()">Duranguense</a></li>
-				<li><a href="/genre6" routerLink="genre7" routerLinkActive="active" (click)="sidenav.close()">Country</a></li>
+				<li><a href="/genre6" routerLink="genre7" routerLinkActive="active" (click)="sidenav.close()">Country</a></li> -->
 			</ul>
 		</nav>
 	</md-sidenav>
@@ -37,15 +39,6 @@
 	</nav>
 	<div class="main-content">
 	  	<div class="app-content">
-		    <!-- <md-card>
-		    	<md-spinner></md-spinner>
-		    	<md-list class="app-list">
-		    	<md-list-item *ngFor="let food of foods">
-		        	<h3 md-line>{{food.name}}</h3>
-		        	<p md-line class="demo-secondary-text">{{food.rating}}</p>
-		    	</md-list-item>
-		    	</md-list> 
-		    </md-card> -->
 		    
 	    	<router-outlet>
 	    	</router-outlet>
