@@ -24,11 +24,11 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		}
 	}
 	.event1image {
-		background-image: url('../assets/Show Revelación.jpg');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_duranguense.png');
 		background-size: cover;
 	}
 	.event2image {
-		background-image: url('../assets/NZA.jpg');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_duranguense.png');
 		background-size: cover;
 	}
 	.card-image {

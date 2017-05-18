@@ -4,14 +4,7 @@
 		<nav>
 			<h3>Music Genres</h3>
 			<ul>
-				<li *ngFor="let navLink of navLinks"><a href="{{navLink.link}}" routerLink="{{navLink.link}}" routerLinkActive="active" (click)="sidenav.close()">{{navLink.name}} <span class="dates">{{navLink.dates}}</span></a></li>
-				<!-- <li ><a href="genre1" routerLink="genre1" routerLinkActive="active" (click)="sidenav.close()">House</a></li>
-				<li><a href="/genre2" routerLink="genre2" routerLinkActive="active" (click)="sidenav.close()">Blues</a></li>
-				<li><a href="/genre3" routerLink="genre3" routerLinkActive="active" (click)="sidenav.close()">Jazz</a></li>
-				<li><a href="/genre4" routerLink="genre4" routerLinkActive="active" (click)="sidenav.close()">Folk</a></li>
-				<li><a href="/genre5" routerLink="genre5" routerLinkActive="active" (click)="sidenav.close()">Gospel</a></li>
-				<li><a href="/genre6" routerLink="genre6" routerLinkActive="active" (click)="sidenav.close()">Duranguense</a></li>
-				<li><a href="/genre6" routerLink="genre7" routerLinkActive="active" (click)="sidenav.close()">Country</a></li> -->
+				<li *ngFor="let navLink of navLinks"><a href="{{navLink.link}}" routerLink="{{navLink.link}}" routerLinkActive="active" (click)="sidenav.close()"><img class="navLinkLogo" alt="{{navLink.name}}"src="{{navLink.logo}}"/>{{navLink.name}} <span class="dates">{{navLink.dates}}</span></a></li>
 			</ul>
 		</nav>
 	</md-sidenav>
@@ -27,14 +20,14 @@
 		    {{ RoutesTitles }}
 		    <span class="app-toolbar-filler"></span>
 
-			<md-menu #appMenu="mdMenu" [overlapTrigger]="false" >
+			<!-- <md-menu #appMenu="mdMenu" [overlapTrigger]="false" >
 				<button md-menu-item> More stuff </button>
 				<button md-menu-item> More stuff </button>
 			</md-menu>
 
 			<button md-icon-button [mdMenuTriggerFor]="appMenu" >
 				<md-icon>more_vert</md-icon>
-			</button>
+			</button> -->
 		</md-toolbar>
 	</nav>
 	<div class="main-content">

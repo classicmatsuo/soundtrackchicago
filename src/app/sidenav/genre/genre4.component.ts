@@ -11,7 +11,7 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		max-width: 700px;
 	}
 	.event1image {
-		background-image: url('../assets/Win and Frank Opening Night.jpg');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_folk.png');
 		background-size: cover;
 	}
 	.card-image {

@@ -24,11 +24,11 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		}
 	}
 	.event1image {
-		background-image: url('http://placehold.it/200/000000/ffffff?text=BLUES');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_blues.png');
 		background-size: cover;
 	}
 	.event2image {
-		background-image: url('http://placehold.it/200/000000/ffffff?text=BLUES');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_blues.png');
 		background-size: cover;
 	}
 	.card-image {

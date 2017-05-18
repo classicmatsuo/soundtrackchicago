@@ -11,7 +11,7 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		max-width: 700px;
 	}
 	.event1image {
-		background-image: url('../assets/Holy Vessel Choir.jpg');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_gospel.png');
 		background-size: cover;
 	}
 	.card-image {

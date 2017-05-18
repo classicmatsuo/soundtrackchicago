@@ -7,9 +7,15 @@
   <md-card *ngFor="let event of mainevent.events; index as i;" class="{{event.genre}} mainevent{{j +1}}">
     <md-card-header>
       <div md-card-avatar class="event{{i +1}}image"></div>
-      <md-card-title>{{event.title}}<br>{{event.lead}}<br><em>{{event.admission}}</em></md-card-title>
-      <md-card-subtitle>{{event.location}}<br>
-      {{event.date}} {{event.time}}</md-card-subtitle>
+      <md-card-title>
+        <h3>{{event.date}} {{event.time}}</h3>
+        {{event.location}}
+        <h2>{{event.title}}</h2>
+      </md-card-title>
+      <md-card-subtitle>
+        {{event.lead}}<br>
+        <em>{{event.admission}}</em>
+      </md-card-subtitle>
     </md-card-header>
     <img class="card-image" src="{{event.image}}">
     <md-card-content>

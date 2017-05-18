@@ -36,7 +36,8 @@
     border-color: rgba(0,0,0,.06);
     color: rgba(0,0,0,.54);
 }
-.app-sidenav li:hover a{
+.app-sidenav li:hover a, 
+.app-sidenav li a.active{
 	background: rgba(0,0,0,.25);
 	color: #fff;
 }
@@ -45,6 +46,11 @@
 }
 .app-sidenav li:last-child {
     border-color: transparent;
+}
+.app-sidenav li a .navLinkLogo {
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 7px 0 0px;
 }
 .app-sidenav li>a {
     box-sizing: border-box;

@@ -16,37 +16,44 @@ export class SidenavComponent implements OnInit {
     {
       name: 'House',
       dates: 'May 25th & 27th',
-      link: 'genre1'
+      link: 'genre1',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_house.png'
     },
     {
       name: 'Blues',
       dates: 'June 8th',
-      link: 'genre2'
+      link: 'genre2',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_blues.png'
     },
     {
       name: 'Jazz',
       dates: 'June 30th',
-      link: 'genre3'
+      link: 'genre3',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_jazz.png'
     },
     {
       name: 'Folk',
       dates: 'July 9th',
-      link: 'genre4'
+      link: 'genre4',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_folk.png'
     },
     {
       name: 'Gospel',
       dates: 'July 22nd',
-      link: 'genre5'
+      link: 'genre5',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_gospel.png'
     },
     {
       name: 'Duranguense',
       dates: 'August 5th',
-      link: 'genre6'
+      link: 'genre6',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_duranguense.png'
     },
     {
       name: 'Country',
       dates: 'August 20th',
-      link: 'genre7'
+      link: 'genre7',
+      logo: '../assets/sotclogos/icons/SOTC_icons_blue_country.png'
     },
 
   ];

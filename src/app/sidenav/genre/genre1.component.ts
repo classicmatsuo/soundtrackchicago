@@ -33,15 +33,15 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		}
 	}
 	.mainevent1 .event1image {
-		background-image: url('../assets/mdm.jpg');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_house.png');
 		background-size: cover;
 	}
 	.mainevent2 .event1image {
-		background-image: url('http://placehold.it/200/000000/ffffff?text=CHLP');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_house.png');
 		background-size: cover;
 	}
 	.mainevent2 .event2image {
-		background-image: url('http://placehold.it/200/000000/ffffff?text=CHLP');
+		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_house.png');
 		background-size: cover;
 	}
 	.lead {
@@ -57,7 +57,7 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 		margin-bottom: 16px;
 	}
 	h2 {
-		font-family: 'Roboto Condensed', sans-serif;
+		// font-family: 'Roboto Condensed', sans-serif;
 	}
   `
   ]
