@@ -1,8 +1,33 @@
 footer {
-    background: #00bcd4;
-    color: #fff;
+    background: #e7e7e7;
+    color: #333;
     font-family: Roboto,"Helvetica Neue",sans-serif;
     /*margin-top: 40px;*/
     padding: 12px;
     font-size: 12px;
+    border-top: 1px solid #777;
+}
+
+.footer-list {
+	display: flex;
+    align-items: center; 
+}
+
+@media screen and (max-width: 480px){
+	.footer-list {
+		flex-direction: column;
+	}
+}
+.footer-copyright {
+    display: flex;
+	justify-content: flex-end;
+	flex: 1;
+	color: #777;
+	font-size: 0.7rem;
+}
+.sponsor1 {
+	max-width: 200px;
+}
+.sponsor2 {
+	max-width: 150px;
 }

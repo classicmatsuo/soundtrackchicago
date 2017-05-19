@@ -7,6 +7,27 @@
         min-height: calc(100vh - 108px);
     }
 }
-.sebm-google-map-container {
-	height: 300px;
+.sponsors {
+	align-items: center;
+	display: flex;
 }
+.sponsor1 {
+	max-width: 60%
+}
+.sponsor2 {
+	max-width: 40%
+}
+@media screen and (max-width: 490px){
+	.sponsors {
+    	flex-direction: column;
+	}
+	.sponsor1 {
+		margin-top: 10px;
+		max-width: 100%
+	}
+	.sponsor2 {
+		margin-top: 10px;
+		max-width: 70%
+	}
+}
+

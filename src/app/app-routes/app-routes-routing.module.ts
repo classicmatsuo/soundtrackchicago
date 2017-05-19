@@ -6,6 +6,7 @@ import { AboutComponent } from '../about/about.component';
 import { ContactComponent } from '../contact/contact.component';
 import { SponsorsComponent } from '../sponsors/sponsors.component';
 
+
 import { PlaceholderComponent }  from '../sidenav/genre/placeholder.component';
 
 

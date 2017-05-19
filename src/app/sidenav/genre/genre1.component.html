@@ -1,16 +1,16 @@
 <md-card *ngFor="let mainevent of mainevents; index as j" class="card-container">
   <div class="event-container">
-    <h2>{{mainevent.title}}</h2>
+    <h2 class="tk-sofia-pro-soft">{{mainevent.title}}</h2>
     <p [innerHTML]="mainevent.description">
     </p>
   </div>
   <md-card *ngFor="let event of mainevent.events; index as i;" class="{{event.genre}} mainevent{{j +1}}">
     <md-card-header>
       <div md-card-avatar class="event{{i +1}}image"></div>
-      <md-card-title>
-        <h3>{{event.date}} {{event.time}}</h3>
+      <md-card-title class="tk-sofia-pro-soft">
+        <h3 class="tk-sofia-pro-soft">{{event.date}} {{event.time}}</h3>
         {{event.location}}
-        <h2>{{event.title}}</h2>
+        <h2 class="tk-sofia-pro-soft">{{event.title}}</h2>
       </md-card-title>
       <md-card-subtitle>
         {{event.lead}}<br>
