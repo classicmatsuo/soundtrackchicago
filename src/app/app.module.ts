@@ -11,7 +11,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 
 import { SidenavModule } from './sidenav/sidenav.module';
@@ -28,7 +27,6 @@ import { AgmCoreModule } from '@agm/core';
     SidenavComponent,
     FooterComponent,
     AboutComponent,
-    ContactComponent,
     SponsorsComponent
   ],
   imports: [

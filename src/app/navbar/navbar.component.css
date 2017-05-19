@@ -3,7 +3,7 @@
 	/*-ms-flex-wrap: wrap;*/
 	/*flex-wrap: wrap;*/
 	padding: 8px 16px;
-	height: 38px;
+	/*height: 38px;*/
 }
 .navbar > .mat-button:last-child {
     margin-left: auto;
@@ -13,14 +13,14 @@
 	min-width: 60px;
 }
 :host .navbar {
-	background: #00bcd4;
+	background: #528ec7;
 }
 :host {
   color: #fff;
   position: relative;
   z-index: 10;
 }
-.logo {
+/*.logo {
 	height: 60px;
 	margin: 0px 5px 5px 0px;
-}
+}*/

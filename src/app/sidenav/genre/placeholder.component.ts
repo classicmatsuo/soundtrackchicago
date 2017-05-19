@@ -7,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
   `
   .genre-list {
     padding: 1%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
   }
   // .genre-list:after {
   //   content: "";
@@ -25,19 +24,25 @@ import { Component, OnInit } from '@angular/core';
   // }
   .genre {
     margin: 2px;
-    width: 19%;
+    width: 23%;
     cursor: pointer;
     background: #528ec7;
     color: #fff;
     padding: 20px 5px;
     text-align: center;
+    display: inline-block;
   }
   .genre h4 {
     margin: 5px 0 3px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   @media only screen and (max-width: 480px) {
     .genre h4 {
       font-size: 12px;
+    }
+    .genre {
+      width: 45%;
     }
   }
   .genre:hover {
@@ -61,7 +66,7 @@ import { Component, OnInit } from '@angular/core';
   .placeholder md-card-content {
     background: #00b8bc;
   }
-  .placeholder h3 {
+  .placeholder h1 {
     color: #fff;
     padding: 20px 0px;
   }
@@ -111,6 +116,12 @@ export class PlaceholderComponent implements OnInit {
       description: 'August 20',
       image: '../../assets/sotclogos/icons/SOTC_icons_country.png',
       link: 'genre7'
+    },
+    {
+      name: 'Learn more about Soundtrack of the City',
+      description: '',
+      image: '',
+      link: '../about'
     }
   ];
   constructor() { }

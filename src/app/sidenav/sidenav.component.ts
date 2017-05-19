@@ -10,7 +10,7 @@ import { RoutesTitles } from '../app-routes/app-routes-titles.service';
 })
 export class SidenavComponent implements OnInit {
 
-  RoutesTitles = "Soundtrack of Chicago";
+  RoutesTitles = "Events";
 
   navLinks = [
     {

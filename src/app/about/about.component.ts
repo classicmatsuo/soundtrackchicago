@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
-import { ActivatedRoute }       from '@angular/router';
-import { Observable }           from 'rxjs/Observable';
+import { AgmCoreModule, AgmMap, AgmMarker } from '@agm/core';
+// import { ActivatedRoute }       from '@angular/router';
+// import { Observable }           from 'rxjs/Observable';
 
 @Component({
   selector: 'app-about',
@@ -9,8 +9,11 @@ import { Observable }           from 'rxjs/Observable';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-
-  constructor(private route: ActivatedRoute) { }
+	zoom: number = 16;
+	lat: number = 41.964216;
+	lng: number = -87.686021;
+	
+  constructor() { }
 
   ngOnInit() {
   }

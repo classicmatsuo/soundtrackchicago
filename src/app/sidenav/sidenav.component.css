@@ -9,10 +9,14 @@
 .app-toolbar-filler {
 	flex: 1 1 auto;
 }
+md-toolbar {
+    background: #528ec7;
+    color: #fff;
+}
 .app-sidenav h3 {
     color: #fff;
     font-family: Roboto,"Helvetica Neue",sans-serif;
-    background: #00bcd4;
+    background: #528ec7;
     line-height: 3em;
     margin: 0;
     padding: 0 16px;

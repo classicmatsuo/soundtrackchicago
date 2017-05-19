@@ -7,9 +7,21 @@
 			<p>Retro readymade fingerstache truffaut. Skateboard gentrify crucifix, taxidermy paleo kitsch drinking vinegar dreamcatcher selfies 8-bit. Pork belly gluten-free jean shorts hella, artisan direct trade marfa aesthetic irony chia plaid. Tacos kitsch master cleanse, yr cray tattooed ennui snackwave edison bulb tote bag. Semiotics cornhole brooklyn put a bird on it. Cold-pressed chartreuse 8-bit stumptown whatever, godard blue bottle affogato.</p>
 			<p>Ennui sartorial aesthetic, succulents vaporware XOXO la croix viral roof party flexitarian keffiyeh gentrify fingerstache fam. PBR&B squid vegan, marfa 90's microdosing single-origin coffee edison bulb tote bag jianbing literally street art cornhole portland. Polaroid health goth everyday carry banjo mixtape cronut. Jianbing leggings swag, pitchfork crucifix church-key cardigan tousled bushwick bitters fashion axe slow-carb kickstarter next level messenger bag. Portland vegan venmo photo booth gluten-free. Vice chillwave cray, keffiyeh intelligentsia kinfolk hell of hoodie meditation edison bulb. Tattooed fanny pack sartorial vegan chillwave.</p>
 	    </md-card>
-
-	    <!-- <router-outlet>
-	    </router-outlet> -->
+		<md-card>
+	    	<h3>
+			  Contact
+			</h3>
+			<div class="contact-info">
+				4544 North Lincoln Avenue, Chicago, IL 60625<br>
+				Mon – Thurs: 9AM - 10PM | Fri – Sun: 9AM - 10PM<br>
+				<button md-icon-button>
+					<a href="tel:+1-773-728-6000">(773) 728-6000</a>
+				</button>
+			</div>
+			<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" [disableDefaultUI]="false" >
+			  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+			</agm-map>
+	    </md-card>
     </div>
 </div>
 

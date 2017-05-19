@@ -7,3 +7,10 @@
         min-height: calc(100vh - 108px);
     }
 }
+
+.sebm-google-map-container {
+	height: 300px;
+}
+.contact-info {
+	margin: 2em 0;
+}

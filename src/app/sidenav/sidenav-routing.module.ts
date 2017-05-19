@@ -24,7 +24,9 @@ const genreRoutes: Routes = [
       { path: 'genre7', component: Genre7Component },
       { path: '', component: PlaceholderComponent }
     ]
-  }
+  },
+  
+
 ];
 
 @NgModule({

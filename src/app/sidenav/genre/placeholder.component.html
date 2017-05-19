@@ -1,13 +1,13 @@
 <md-card class="placeholder">
 	<img alt="Soundtrack of the City" src="../../../assets/SOTC_HomepagePlaceholder_051717.png" />
 	<md-card-content>
-		<h3 class="tk-sofia-pro-soft">MAY 15 - AUGUST 1, 2017</h3>
+		<h1 class="tk-sofia-pro-soft">MAY 15 - AUGUST 1, 2017</h1>
 	</md-card-content>
 </md-card>
 <div class="genre-list">
-  <md-card *ngFor="let genre of genres; index as i;" class="genre {{genre.name}}" routerLink="{{genre.link}}" routerLinkActive="active">
+  <div *ngFor="let genre of genres; index as i;" class="genre {{genre.name}}" routerLink="{{genre.link}}" routerLinkActive="active">
   	<img class="card-image" src="{{genre.image}}">
     <h4 class="tk-sofia-pro-soft">{{genre.name}}</h4>
   	<span class="tk-sofia-pro-soft">{{genre.description}}</span>
-  </md-card>
+  </div>
 </div>

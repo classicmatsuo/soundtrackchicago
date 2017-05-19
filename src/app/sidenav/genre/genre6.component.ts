@@ -58,18 +58,33 @@ export class Genre6Component implements OnInit {
 			location: 'Harrison Park (1824 S. Wood St.)',
 			date: 'Sunday, August 13',
 			time: '2-6pm',
-			image: '../assets/NZA.jpg',
+			image: '',
 			description: '',
 			link: '',
 			tabs: [
 				{	
+					tabname: 'Norteñisimo Zierra Azul',
+					title: 'Norteñisimo Zierra Azul',
+					image: '../assets/NZA.jpg',
+					content: `<p>Norteñisimo Zierra Azul is a Chicago based Mexican Norteño band founded in 2013. The band has toured and recorded with their mentors, Duranguense super stars Montez de Durango and are working on their fourth studio album.</p>`
+				},
+				{	
+					tabname: 'Montéz De Durango',
+					title: 'Montéz De Durango',
+					image: '../assets/Montez2017-2.jpg',
+					content: `<p>Montéz De Durango began in the city of Chicago back in 1996, when its founder and musical director, José Luis Terrazas, brought together a group of talented musicians who, like him, had a strong desire to succeed and make a difference in the Regional Mexican Music industry.</p><p>From 2005 to present day, Montéz De Durango has gone on to sell over seven million albums. They continue to tour countries such as United States, Mexico, Guatemala, El Salvador, and Canada, and have left a legacy in Regional Mexican Music with over twenty Top 40 songs in their twenty-year career.</p>`
+				},
+				{	
+					tabname: 'Catalina Maria Johnson',
+					title: 'Catalina Maria Johnson',
+					image: '',
+					content: `<p>Catalina Maria Johnson is a Chicago-based bilingual music journalist (Univision, Remezcla, Gozamos, Bandcamp) who hosts and produces <a href="http://www.beatlatino.com/" target="_blank">Beat Latino</a>, a radio show that airs weekly in Chicago (Vocalo, Chicago Public Media). Beat Latino special editions also air in Mexico City and over twenty U.S. cities. Catalina is also a regular contributor to NPR’s Music Blog, NPR's Alt Latino and NPR's World Cafe.</p>`
+				},
+				{	
 					tabname: 'Essay',
 					title: 'Duranguense: The Sound of Mexican Chicago that Was Heard Around the World',
-					image: '../assets/Montez2017-2.jpg',
-					content: `
-						<p>Catalina Maria Johnson</p>
-
-						<p>“I have to tell people in Durango all the time, ‘No!, your grandparents did not dance the pasito duranguense! Duranguense was born in Chicago!”, exclaims José Luis Terrazas. Terrazas, is the founder of Montez de Durango, the first band to gain world-wide renown for a style of music known as duranguense, i.e., “from Durango”. And despite a name that seems to bely origins in that northern state, duranguense is one Chicago’s own home-brewed sounds. 
+					image: '',
+					content: `<p>“I have to tell people in Durango all the time, ‘No!, your grandparents did not dance the pasito duranguense! Duranguense was born in Chicago!”, exclaims José Luis Terrazas. Terrazas, is the founder of Montez de Durango, the first band to gain world-wide renown for a style of music known as duranguense, i.e., “from Durango”. And despite a name that seems to bely origins in that northern state, duranguense is one Chicago’s own home-brewed sounds. 
 						</p>
 						<p>
 						Along with its accompanying dance, the pasito duranguense (literally, “little step from Durango”), this style of music took the United States and then Mexico by storm in the mid-nineties. Up until that point, most U.S.born Spanish-language music had come from San Antonio, Miami, New York or Los Angeles. But duranguense, born in Chicago and inspired by Durango, rose meteorically from the mid-nineties to hold as many as five of the top 10 spots on Billboard's Latin charts just a decade later. Most importantly, it was not a music that emigrated from Mexico and then took roots in the U.S., but rather, emerged on this side of the Rio Grande and found its way back, always addressing audiences on both sides of the border.
