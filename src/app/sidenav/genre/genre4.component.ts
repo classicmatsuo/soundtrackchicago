@@ -25,8 +25,8 @@ export class Genre4Component implements OnInit {
   events = [
     {
       genre: 'genre4',
-      title: 'Folk Music - Chicago’s Legacy',
-      lead: 'Part of Square Roots Festival, A true local music, craft beer and food festival in Lincoln Square presented by Old Town School of Folk Music and Lincoln Square Ravenswood Chamber Of Commerce',
+      title: 'Folk Music = Chicago’s Legacy',
+      lead: 'Part of Square Roots Festival, a true local music, craft beer and food festival in Lincoln Square presented by Old Town School of Folk Music and Lincoln Square Ravenswood Chamber Of Commerce',
       admission: 'Free & open to the public',
       location: 'Lincoln Avenue between Montrose and Wilson',
       date: 'Sunday, July 9',

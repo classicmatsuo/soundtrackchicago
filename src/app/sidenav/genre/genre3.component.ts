@@ -28,7 +28,7 @@ export class Genre3Component implements OnInit {
       title: 'Chicago Jazz',
       lead: 'In partnership with Night Out In The Parks, presented by the Chicago Park District',
       admission: 'Free & open to the public',
-      location: 'Ellis Park (535 E. 35th St.)',
+      location: 'Ellis Park Arts & Recreation Center -  3520 S. Cottage Grove Ave',
       date: 'Friday, June 30',
       time: '6-9pm',
       image: 'http://placehold.it/700x200/000000/ffffff?text=JAZZ',

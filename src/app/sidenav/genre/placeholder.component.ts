@@ -31,6 +31,14 @@ import { Component, OnInit } from '@angular/core';
     padding: 20px 5px;
     text-align: center;
     display: inline-block;
+    height: 150px;
+    vertical-align: top;
+  }
+  .genre:last-child {
+    background: #00b8bc;
+  }
+  .genre:last-child:hover {
+    background: #019598;
   }
   .genre h4 {
     margin: 5px 0 3px 0;
@@ -53,7 +61,7 @@ import { Component, OnInit } from '@angular/core';
     font-size: 0.75rem;
   }
   .card-image {
-    max-width: 70%;
+    max-height: 60%;
   }
   .placeholder {
     text-align: center;
@@ -61,7 +69,7 @@ import { Component, OnInit } from '@angular/core';
   }
   .placeholder img {
     max-width: 100%;
-    width: 400px;
+    width: 800px;
   }
   .placeholder md-card-content {
     background: #00b8bc;
@@ -118,9 +126,9 @@ export class PlaceholderComponent implements OnInit {
       link: 'genre7'
     },
     {
-      name: 'Learn more about Soundtrack of the City',
-      description: '',
-      image: '',
+      name: '',
+      description: 'Learn more about Soundtrack of the City',
+      image: '../../assets/sotclogos/icons/SOTC_icons_OTSFM.png',
       link: '../about'
     }
   ];

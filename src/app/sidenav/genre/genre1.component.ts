@@ -202,7 +202,7 @@ export class Genre1Component implements OnInit {
 		}
   ]
   constructor(private _RouteTitles:RoutesTitles){
-    _RouteTitles.name.next('Chicago House Legacy Project');
+    _RouteTitles.name.next('Chicago House Party');
   }
 
   ngOnInit() {

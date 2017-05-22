@@ -45,9 +45,9 @@ export class Genre2Component implements OnInit {
       title: 'Blues’n In Bronzeville',
       lead: 'In partnership with Night Out In The Parks, presented by the Chicago Park District',
       admission: 'Free & open to the public',
-      location: 'Ellis Park (535 E. 35th St.)',
+      location: 'Ellis Park Arts & Recreation Center -  3520 S. Cottage Grove Ave',
       date: 'Thursday, June 8',
-      time: '6-8pm',
+      time: '6-9pm',
       image: 'http://placehold.it/700x200/000000/ffffff?text=Blues’n In Bronzeville',
       description: "Blues'n In Bronzeville brings authentic blues right back to where it all began. Blocks from Muddy Waters' home and Honorary Sam Cooke Way, this festival will feature performances from old school greats and some new voices on the scene.",
       link: '',
@@ -108,7 +108,7 @@ export class Genre2Component implements OnInit {
           image: '',
           content: `
             <p>
-		          The only music museum in Chicago and Illinois, the Chicago Blues museum is the only history institution dedicated to the history of the blues and American popular music as it relates to Chicago. Since 1991, the museum has focused on preservation and evolution of the blues and related music genres through education and performance programs.
+		          The only music Museum in Chicago and Illinois, the Chicago Blues museum is the only history institution dedicated to the history of the blues and American popular music as it relates to Chicago. Since 1991, the museum has focused on preservation and evolution of the blues and related music genres through education and performance programs.
 		          <a href="https://www.facebook.com/Chicago-Blues-Museum-208904142563117/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 		        </p>
          `
