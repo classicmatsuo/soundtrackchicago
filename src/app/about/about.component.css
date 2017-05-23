@@ -14,3 +14,39 @@
 .contact-info {
 	margin: 0 0 2rem 0;
 }
+
+.about-container {
+	display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.logo {
+	flex: 1;
+	margin: 10px;
+}
+.about-content {
+	flex: 3;
+}
+.otsfm-img, .dcase-img {
+	align-self: center;
+}
+.otsfm-img {
+	width: 100%;
+}
+.dcase-img {
+	max-width: 200px;
+}
+
+@media only screen and (max-width: 480px){
+	.about-container {
+	    flex-flow: column wrap;
+	}
+	.otsfm-img {
+		width: 50%;
+	}
+	.logo {
+		text-align: center;
+	}
+}
+    

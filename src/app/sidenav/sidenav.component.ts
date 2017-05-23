@@ -45,7 +45,7 @@ export class SidenavComponent implements OnInit {
     },
     {
       name: 'Duranguense',
-      dates: 'August 5th',
+      dates: 'August 5th & 13th',
       link: 'genre6',
       logo: '../assets/sotclogos/icons/SOTC_icons_blue_duranguense.png'
     },
