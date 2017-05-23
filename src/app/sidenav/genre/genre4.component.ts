@@ -25,7 +25,7 @@ export class Genre4Component implements OnInit {
   events = [
     {
       genre: 'genre4',
-      title: 'Folk Music = Chicago’s Legacy',
+      title: 'Folk Music - Chicago’s Legacy',
       lead: 'Part of Square Roots Festival, a true local music, craft beer and food festival in Lincoln Square presented by Old Town School of Folk Music and Lincoln Square Ravenswood Chamber Of Commerce',
       admission: 'Free & open to the public',
       location: 'Lincoln Avenue between Montrose and Wilson',
@@ -34,7 +34,7 @@ export class Genre4Component implements OnInit {
       image: '../assets/Win and Frank Opening Night.jpg',
       description: "Join us as we take a look and listen to the welcoming role Chicago played (and still plays) in folk music, from way back to The Peoples' Songs Concerts of the late 1940s with Pete Seeger, Big Bill Broonzy, and Woody Guthrie in Orchestra Hall, to the voices of singers and players over the airwaves with Studs Terkel, to the lore of the historic Chicago venues, and to the hallowed halls of our very own Old Town School of Folk Music. Chicago's beckoning call made this a welcoming hub, bringing folks here to participate: to play and sing and join in this musical community, whether passing through or staying on. Folk music, always the people's songs. Come on!",
       link: '',
-      tabs: [
+      essays: [
         {  
           tabname: 'Essay',
           title: 'Folk Music & Chicago',

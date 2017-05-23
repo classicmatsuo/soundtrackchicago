@@ -72,12 +72,12 @@ md-toolbar {
 }
 
 /* sticky footer */
-.main-content {
+/*.main-content {
     min-height: calc(100vh - 180px);
 }
 @media (max-width: 600px){
     .main-content {
         min-height: calc(100vh - 172px);
     }
-}
+}*/
 

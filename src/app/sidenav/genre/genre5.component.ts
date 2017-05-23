@@ -25,7 +25,7 @@ export class Genre5Component implements OnInit {
   events = [
     {
       genre: 'genre5',
-      title: 'Gospel & The Freedom Trail',
+      title: 'Gospel and The Freedom Trail',
       lead: 'In partnership with Night Out In The Parks, presented by the Chicago Park District',
       admission: 'Free & open to the public, Rain or Shine',
       location: 'Marquette Park (6743 S. Kedzie Ave)',
@@ -53,7 +53,9 @@ export class Genre5Component implements OnInit {
               The HVBCC is founded and directed by the award-winning composer, musician and educator Dr. Lena J. McLin. Dr. McLin is the niece of the ‘Father of Gospel Music’ Thomas A Dorsey. Dr. McLin taught in Chicago Public Schools for 36 years, and she was featured in the PBS documentary “This Far By Faith”.
           </p>
          `
-        },
+        }
+      ],
+      essays: [
         {  
           tabname: 'Essay',
           title: '',
@@ -122,7 +124,7 @@ export class Genre5Component implements OnInit {
 
 
   constructor(private _RouteTitles:RoutesTitles){
-    _RouteTitles.name.next('Gospel & The Freedom Trail');
+    _RouteTitles.name.next('Gospel and The Freedom Trail');
   }
 
   ngOnInit() {

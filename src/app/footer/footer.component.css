@@ -25,9 +25,11 @@ footer {
 	color: #777;
 	font-size: 0.7rem;
 }
-.sponsor1 {
+.footer-sponsor1 {
 	max-width: 200px;
+	width: 50%;
 }
-.sponsor2 {
+.footer-sponsor2 {
 	max-width: 150px;
+	width: 50%;
 }

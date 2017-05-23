@@ -14,5 +14,9 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 .mat-tab-label {
 	font-size: 10px;
-	min-width: 100px !important;
+}
+@media (min-width: 600px) {
+	.mat-tab-label {
+		min-width: 100px !important;
+	}
 }

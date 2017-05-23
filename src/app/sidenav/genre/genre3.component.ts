@@ -63,7 +63,9 @@ export class Genre3Component implements OnInit {
               Dee Alexander is one of Chicago’s most gifted and respected female vocalist/songwriters. Her talents span every music genre, from Gospel to R&B, from Blues to Neo-Soul. Yet her true heart and soul are experienced in their purest form through her performance of Jazz music. From a soft, sultry traditional ballad, to a contemporary Jazz-Funk groove; from a high flying swing, to a scat-filled romp, Dee Alexander delivers each style with a passion and love of music that comes across in each and every note, and with a style and grace that is truly her own. Besides being a phenomenal headliner in her own right, Dee has shared the stage with Ahmad Jamal, David Sanborn, Earl Klugh, Gerald Albright, Roy Ayers, Joshua Redman, and the O’Jays. Not being one to ever feel that the spotlight has to belong exclusively to her, Ms. Alexander has lent her considerable talents as a backup vocalist to the live performances of an array of many other well-known artists i.e., Michael Bolton, Phil Perry, Willie Clayton, and Zora Young. Dee has also formed the Evolution Ensemble which is an acoustic group that consists of string instruments and percussion with a strong emphasis on original compositions.
             </p>
          `
-        },
+        }
+      ],
+      essays: [
         {  
           tabname: 'Essay',
           title: '',
@@ -94,7 +96,7 @@ export class Genre3Component implements OnInit {
               In the 1990s, the musicians of the AACM – specifically the late saxophonist and mentor Fred Anderson, whose new-music venue the Velvet Lounge still stands at 67 E. Cermak (though now a sports bar) – inspired a new wave of musicians that have once again made Chicago a global nexus for avant-garde experimentation as well as rollicking improvisation. As political and social events have leaned further right, the appetite for music that defies the establishment seems to have grown steadily larger for these artists. Names such as Ken Vandermark, Jeff Parker, Nicole Mitchell, Dave Rempis, Greg Ward, Mike Reed, Dee Alexander, Tim Daisy, and Tomeka Reid now resonate throughout the U.S., Europe, and parts of Asia and Africa. Check the schedules for such hotspots as The Hungry Brain (2319 W. Belmont), the Whistler California Clipper (1002 N. California), and Logan Center at the University of Chicago – as well as Elastic Arts, Constellation, and the Green Mill – and you can take part in the next chapter in Chicago jazz even as it’s being written.
             </p>
          `
-        },
+        }
       ]
     }
   ]

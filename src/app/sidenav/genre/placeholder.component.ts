@@ -31,7 +31,7 @@ import { Component, OnInit } from '@angular/core';
     padding: 20px 5px;
     text-align: center;
     display: inline-block;
-    height: 150px;
+    // height: 150px;
     vertical-align: top;
   }
   .genre:last-child {
@@ -39,6 +39,12 @@ import { Component, OnInit } from '@angular/core';
   }
   .genre:last-child:hover {
     background: #019598;
+  }
+  .genre:last-child h4 {
+    margin: 5px 0 3px 0;
+    text-transform: none;
+    letter-spacing: 0.0rem;
+    line-height: 1.3rem;
   }
   .genre h4 {
     margin: 5px 0 3px 0;
@@ -52,16 +58,20 @@ import { Component, OnInit } from '@angular/core';
     .genre {
       width: 45%;
     }
+    .genre:last-child h4 {
+      margin: 3px 0 3px 0;
+    }
   }
   .genre:hover {
     background: #487cab;
   }
+  .genre:last-child h4,
   .genre span {
     font-weight: 300;
     font-size: 0.75rem;
   }
   .card-image {
-    max-height: 60%;
+    max-width: 70%;
   }
   .placeholder {
     text-align: center;
@@ -126,8 +136,8 @@ export class PlaceholderComponent implements OnInit {
       link: 'genre7'
     },
     {
-      name: '',
-      description: 'Learn more about Soundtrack of the City',
+      name: 'Learn more about',
+      description: 'Soundtrack of the City',
       image: '../../assets/sotclogos/icons/SOTC_icons_OTSFM.png',
       link: '../about'
     }

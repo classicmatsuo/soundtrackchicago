@@ -36,6 +36,18 @@
           </div>
         </md-tab>
       </md-tab-group>
+      <md-tab-group dynamicHeight *ngIf="event.essays">
+        <md-tab *ngFor="let essay of event.essays">
+          <ng-template md-tab-label class="tab-label">
+            {{essay.tabname}}
+          </ng-template>
+          <h4>{{essay.title}}</h4>
+          <img *ngIf="essay.image" class="card-image" src="{{essay.image}}">
+          <div [innerHTML]="essay.content">
+            
+          </div>
+        </md-tab>
+      </md-tab-group>
     </md-card-content>
   </md-card>
 </md-card>

@@ -59,6 +59,9 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
 	h2 {
 		// font-family: 'Roboto Condensed', sans-serif;
 	}
+	:host>>>.essay-img {
+		width: 100%;
+	}
   `
   ]
 })
@@ -139,8 +142,10 @@ export class Genre1Component implements OnInit {
 		            <a href='https://www.cityofchicago.org/city/en/depts/dca/supp_info/hlp.html' target='_blank'>Full schedule &amp; lineup</a> 
 		          </p>
 		         `
-		        },
-		        {  
+		        }
+		      ],
+		      essays: [
+		      	{  
 		          tabname: 'Essay',
 		          title: 'Chicago House',
 		          image: '../assets/mdm.jpg',
@@ -168,6 +173,8 @@ export class Genre1Component implements OnInit {
 								<p>
 									DJ Frankie Knuckles was a Chicago area superstar when the Warehouse closed in 1982. By 1983, the election of Chicago’s first Black Mayor, Harold Washington created an energy and optimism in Chicago’s youth and alternative communities. Mr. Williams opened a new club The Music Box and in 1983 Frankie took his fame and followers to his own club the Powerplant at 1015 North Halsted.  Like the Warehouse, these Chicago addresses in the late 70’s and early 80’s were industrial, dark and empty, under-the-radar and perfect for after-hour events. These clubs and the sounds that emerged brought teens and twenty-something straight kids together with Black, Gay, Latino and White adults all immersed in lyrics that suggested they should “Bring Down the Walls” and “Brighter Days” were to come. More explicit content included in songs like “Baby Wants to Ride” and “Waiting on My Angel” unified the DJ and dancers in spirit and in movement. The songs were hopeful as was the era. Gays were open and free in a space where straights did not judge, stare or become violent. Blacks, Whites, Asians and Hispanics became one with the music and in-turn created an atmosphere where unity was bigger than difference.
 								</p>
+								<img class="essay-img" src="../assets/powerplant.jpg"/>
+								<em>1983 Powerplant Club Business Card | Courtesy of @DanceMusicFound – Michael Winston Collection</em>
 								<p>
 									The Chicago DJ Becomes the Star
 								</p>
@@ -186,12 +193,13 @@ export class Genre1Component implements OnInit {
 								<p>
 									1988 House Music Party Promotion Poster | Courtesy of @DanceMusicFound – Gene Hunt Collection
 								</p>
+								<img class="essay-img" src="../assets/partyoflife.jpg"/>
+								<em>1988 House Music Party Promotion Poster | Courtesy of @DanceMusicFound – Gene Hunt Collection</em>
 								<p>
 									Chicago’s small venues and clubs including the Playground in Chicago’s South Loop, Jeffery Pub in South Shore (one of the longest running gay clubs in the country) C.O.D’s and AKA’s in Rogers Park the Hyde Park Athletic Club, and many others that have come and gone kept the music alive over the years. The late 80’s and 90’s saw increasing attacks on the underground music scene which was the backbone of the genre. The AIDS epidemic, coupled with dance music drug culture unfortunately ended the lives of many talented artists. Finally, in 2000, Chicago’s City Council enacted an ordinance banning unlicensed dance parties which slowly silenced DJs and promoters forcing them to find new opportunities across the country. Thanks to the overseas success of DJ Frankie Knuckles and the proliferation of cassette tapes, increasing technology, over and under-the-table label deals by label owners Rocky Jones and their representatives including Attorney Jay B. Ross, House Music exploded in Europe providing gigs as artists, executives and remixers.
 								</p>
-								<p>
-									April 2000 Chicago City Council Anti-Rave Ordinance | Courtesy of @DanceMusicFound
-								</p>
+								<img class="essay-img" src="../assets/ordinance.jpg"/>
+								<em>April 2000 Chicago City Council Anti-Rave Ordinance | Courtesy of @DanceMusicFound</em>
 								<p>
 								Chicago politics and Chicago’s mostly segregated neighborhoods shaped how House Music flourished, exploded overseas, then died in its neighborhoods. The proliferation of digital and emerging electronic mediums has catapulted House Music from its Chicago roots into a global power influencing dance, fashion and media. Chicagoans have mastered the genre winning Grammy’s and chart topping hits with international artists including Michael Jackson and most recently Kanye West. Unlike early Chicago culture, in the House Music era, sexuality and heritage were not a deterrent to creativity and learning. This ideology and its transformative muscle has thrust House Music to its current massive pop presence and will undoubtedly continue to drive its future.
 		         	`
