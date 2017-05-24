@@ -82,7 +82,11 @@ export class Genre1Component implements OnInit {
 		      time: '6:00PM',
 		      image: '../assets/mdm.jpg',
 		      description: `
-		      	<p>This panel, moderated by Lauren Lowery, will look back at the history of the scene, ongoing gender inequality, evolving technologies, and industry trends to inform the possible future of House Music as a cultural practice. How are new generations accessing historical knowledge? What are the pioneers of the past, as well as present House Music successors doing to support and cultivate a new generation of practitioner today? It is presented in collaboration with Old Town School of Folk Music’s Soundtrack of the City. </p>
+		      	<p>This panel, moderated by Lauren Lowery, will look back at the history of the scene, ongoing gender inequality, evolving technologies, and industry trends to inform the possible future of House Music as a cultural practice. How are new generations accessing historical knowledge? What are the pioneers of the past, as well as present House Music successors doing to support and cultivate a new generation of practitioner today? It is presented in collaboration with Old Town School of Folk Music’s Soundtrack of the City. 
+		      	</p>
+		      	<p>
+					Panelists include Craig Loftis, Maddie Higgins, Dave Mason, and Rob McKay
+		      	</p>
 		      	<p>
 		      		View the <a href="https://www.cityofchicago.org/city/en/depts/dca/supp_info/house_music.html" target="_blank">full schedule</a> of panels and workshops for House Music Conference on Thursday, May 25 and Friday, May 26
 		      	</p>

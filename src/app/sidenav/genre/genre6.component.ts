@@ -47,9 +47,9 @@ export class Genre6Component implements OnInit {
 			admission: 'Free & open to the public',
 			location: 'National Museum Of Mexican Art (1852 W. 19th St.)',
 			date: 'Saturday, August 5',
-			time: '12-4pm',
+			time: '2-4pm',
 			image: '../assets/Show Revelación.jpg',
-			description: 'Performance from Show Revelación, discussion panel & video presentation from Jose Luis Terrazas and Ivan Fernandez about the Duranguense movement',
+			description: 'Video and panel discussion regarding the Duranguense movement hosted by Mateo Mulcahy of the Old Town School with Jose Luis Terrazas of Montez de Durango and Chicago Latin Music promoter Ivan Fernández. Event closes with a performance from Show Revelación.',
 			link: 'http://nationalmuseumofmexicanart.org/',
 		},
 		{
@@ -64,16 +64,22 @@ export class Genre6Component implements OnInit {
 			link: '',
 			tabs: [
 				{	
+					tabname: 'Montéz De Durango',
+					title: 'Montéz De Durango',
+					image: '../assets/Montez2017-2.jpg',
+					content: `<p>Montéz De Durango began in the city of Chicago back in 1996, when its founder and musical director, José Luis Terrazas, brought together a group of talented musicians who, like him, had a strong desire to succeed and make a difference in the Regional Mexican Music industry.</p><p>From 2005 to present day, Montéz De Durango has gone on to sell over seven million albums. They continue to tour countries such as United States, Mexico, Guatemala, El Salvador, and Canada, and have left a legacy in Regional Mexican Music with over twenty Top 40 songs in their twenty-year career.</p>`
+				},
+				{	
 					tabname: 'Norteñisimo Zierra Azul',
 					title: 'Norteñisimo Zierra Azul',
 					image: '../assets/NZA.jpg',
 					content: `<p>Norteñisimo Zierra Azul is a Chicago based Mexican Norteño band founded in 2013. The band has toured and recorded with their mentors, Duranguense super stars Montez de Durango and are working on their fourth studio album.</p>`
 				},
 				{	
-					tabname: 'Montéz De Durango',
-					title: 'Montéz De Durango',
-					image: '../assets/Montez2017-2.jpg',
-					content: `<p>Montéz De Durango began in the city of Chicago back in 1996, when its founder and musical director, José Luis Terrazas, brought together a group of talented musicians who, like him, had a strong desire to succeed and make a difference in the Regional Mexican Music industry.</p><p>From 2005 to present day, Montéz De Durango has gone on to sell over seven million albums. They continue to tour countries such as United States, Mexico, Guatemala, El Salvador, and Canada, and have left a legacy in Regional Mexican Music with over twenty Top 40 songs in their twenty-year career.</p>`
+					tabname: 'Show Revelación',
+					title: 'Show Revelación',
+					image: '../assets/Show Revelación.jpg',
+					content: ``
 				}
 			]
 		}
@@ -121,7 +127,7 @@ export class Genre6Component implements OnInit {
 					Terrazas founded his own Terrazas Records label and the band now has recorded more than two dozen albums. Although much of their fan base is Mexican and in the Mexican diaspora from Arizona to Alaska, the band has enormous followings in different parts of the world,  and not long ago toured Canada and Central America.
 					</p>
 					<p>
-					Montez de Durango also opened the doors to fame for other Chicago bands such as <a href="https://twitter.com/realalacranes?lang=en" target="_blank">Alacranes Musical</a> y Los <a href="https://twitter.com/horoscoposdedgo" target="_blank">Horóscopos de Durango</a>. The latter band, fronted by Vicky and Marisol Terrazas, became the first regional Mexican music band to be fronted by women. Horoscopos has always innovated duranguense in many ways, even covering Cindy Lauper's "<a href="https://www.youtube.com/watch?v=keBZiqPxM9w" target="_blank">Girls Just Want to Have Fun</a>" in a Spanish and English Duranguense version.
+					Montez de Durango also opened the doors to fame for other Chicago bands such as <a href="https://twitter.com/realalacranes?lang=en" target="_blank">Alacranes Musical</a> y Los <a href="https://twitter.com/horoscoposdedgo" target="_blank">Horóscopos de Durango</a>. The latter band, fronted by Vicky and Marisol Terrazas, became the first regional Mexican music band to be fronted by women. Horoscopos has always innovated duranguense in many ways, even covering Cyndi Lauper's "<a href="https://www.youtube.com/watch?v=keBZiqPxM9w" target="_blank">Girls Just Want to Have Fun</a>" in a Spanish and English Duranguense version.
 					</p>
 					<p>
 					Although its massive craze-level popularity was short-lived, duranguense remains one of the staple sounds of the bi-national reality of the Latin diaspora, with a widespread following of Central American as well as Mexican and Mexican-American fans. Younger generations in the U.S. still love dancing to this genre that honors the cultural ties of their parents without losing sight of their American experience. 

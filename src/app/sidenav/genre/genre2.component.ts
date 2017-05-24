@@ -45,7 +45,7 @@ export class Genre2Component implements OnInit {
       genre: 'genre2',
       title: 'Blues’n In Bronzeville',
       lead: 'In partnership with Night Out In The Parks, presented by the Chicago Park District',
-      admission: 'Free & open to the public',
+      admission: 'Outdoor concert. Free & open to the public',
       location: 'Ellis Park Arts & Recreation Center -  3520 S. Cottage Grove Ave',
       date: 'Thursday, June 8',
       time: '6-9pm',
@@ -72,7 +72,7 @@ export class Genre2Component implements OnInit {
         {  
           tabname: 'Doktu Rhute Muuzic',
           title: 'Doktu Rhute Muuzic (formerly known as Roy Hytower)',
-          image: '../../assets/Doktu.jpg',
+          image: '../../assets/Roy Hytower PR new.jpg',
           content: `
             <p>
 	          Doktu Rhute Muuzic (formerly Roy Hytower) has enjoyed a full career from his late teens to the present day spanning over fifty years. His first experiences were singing around Mobile, Alabama. In 1962 he came to Chicago, replacing Mighty Joe Young as rhythm guitarist for Otis Rush. Often adopting a soul-slanted sound, Hytower cut a handful of 45rpm singles in the 1960s and '70s for several local labels such as Avin, Expo, Brainstorm, and Jiffy. In recent years Roy Hytower has self-released a couple of CDs under his new moniker, Doktu Rhute Muuzic.
@@ -98,7 +98,7 @@ export class Genre2Component implements OnInit {
       admission: 'Free & open to the public',
       location: 'Ellis Park Arts & Recreation Center - 3520 S. Cottage Grove Ave',
       date: 'Thursday, June 8',
-      time: '11am-9pm',
+      time: '4-9pm & Friday, June 9 11am-9pm',
       image: 'http://placehold.it/700x200/000000/ffffff?text=We Bring You Bronzeville',
       description: "Chicago Blues Museum's community gathering featuring a blues exhibit and film footage of Blues Greats. The Chicago Blues Museum presents Chicago Blues Legends exhibit on the history of Chicago Blues with 'Nothin But The Blues' film footage of performances of Blues Greats on the big screen. The Chicago Blues Museum's We Bring you Bronzeville: A month-long celebration of the musical heritage and cultural legacy of the historic South Side district through exhibits, film presentations of music performances and programs at Ellis Park exploring significant contributions from musicians, artists, and citizens to the fabric of Bronzeville's deep cultural history.",
       link: '',

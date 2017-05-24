@@ -33,7 +33,7 @@ export class Genre5Component implements OnInit {
       date: 'Saturday, July 22',
       time: '6-8pm',
       image: '../assets/Holy Vessel Choir.jpg',
-      description: 'Gospel and the Freedom Trail features a concert with gospel icon Dr. Lena McLin and various luminary Chicago Gospel artists.',
+      description: 'Gospel and the Freedom Trail features a concert with gospel icon Dr. Lena McLin, the Chicago Christian Choir, and various Chicago Gospel luminaries. Master of Ceremonies in Sonya Blakey, the Program Director and On-Air Host at GospelRadio 1390, will lead a discussion on Chicago Gospel from the stage with special guests.',
       link: '',
       tabs: [
         {  

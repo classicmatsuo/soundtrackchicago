@@ -125,7 +125,7 @@ export class PlaceholderComponent implements OnInit {
     },
     {
       name: 'Duranguense',
-      description: 'August 5',
+      description: 'August 5 & 13',
       image: '../../assets/sotclogos/icons/SOTC_icons_duranguense.png',
       link: 'genre6'
     },
