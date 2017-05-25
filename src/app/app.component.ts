@@ -1,10 +1,5 @@
 import { Component } from '@angular/core';
 
-export class stuff {
-  id: number;
-  name: string;
-}
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

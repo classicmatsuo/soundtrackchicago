@@ -1,9 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges } from '@angular/core';
 import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
+
+import { Genre } from './genre';
+import { GenreService } from '../../services/genre.service';
+
 
 @Component({
   selector: 'genre7',
   templateUrl: './genretemplate.component.html',
+  providers: [ GenreService ],
   styles: [
   `
   	.genre7 {
@@ -22,39 +27,42 @@ import { RoutesTitles } from '../../app-routes/app-routes-titles.service';
   ]
 })
 export class Genre7Component implements OnInit {
-  
-  events = [
-    {
-      genre: 'genre7',
-      title: 'Country Skyline - Robbie Fulks & Friends',
-      lead: '',
-      admission: '',
-      location: 'Navy Pier, Lake Stage',
-      date: 'Sunday, August 20',
-      time: '6pm',
-      image: '../assets/Robbie_Fulks_Stand_2016_Andy_Goodwin.jpg',
-      description: 'Despite its urban environment, or perhaps because of it, Chicago has played a very influential role in the advancement of country music. Our homegrown predecessor to the Grand Ole Opry, the legendary WLS National Barn Dance, was one of the first American country radio programs to hit the airwaves in 1924 with a broadcast that could be heard above the fruited plain and across the United States. Fast forward to modern day, and county music’s various streams, from roots rock to alt-country, all lead back to the big lake on the third coast. Join Robbie Fulks and Friends, featuring Music Legends Awards winner Jon Langford, for a celebration of country in the big city.',
-      link: '',
-      tabs: [
-        {  
-          tabname: 'Robbie Fulks',
-          title: '',
-          image: '',
-          content: `
-          <p>
-          	Robbie Fulks plays by nobody's rules--except the ones he hears in his head. He is prodigiously talented, with the soul of a country singer and the mind of a vaudevillian.  Besides, his scorn for the music industry makes ours look positively prosaic. But don't let that make you lose sight of THE SONGS.
- 					</p>
- 					<p>
-						Widely regarded by those who monitor such things as one of the most gifted songwriters to ever ply the trade, he can sing the kids ditty "Eggs" and Haggard's "Sing a Sad Song" back to back and mean 'em both. While it is true he started off a honky tonk smartass, it quickly became evident that Robbie was a monster talent and some of his early Bloodshot albums have been rightly elevated to the status of "classic" and serve as their own Greatest Hits collections.  
- 					</p>
- 					<p>
-						“…a masterly, multifaceted songwriter who can belt out hip-shaking honky tonk, honeydew pop and chilling little ballads with an unrivaled skill and spirit. So good, he's scary.” - Chicago Tribune
- 					</p>
-         `
-        }
-      ]
-    }
-  ]
+
+  genres: Genre[];
+  errorMessage: string;
+
+  // events = [
+  //   {
+  //     genre: 'genre7',
+  //     title: 'Country Skyline - Robbie Fulks & Friends',
+  //     lead: '',
+  //     admission: '',
+  //     location: 'Navy Pier, Lake Stage',
+  //     date: 'Sunday, August 20',
+  //     time: '6pm',
+  //     image: '../assets/Robbie_Fulks_Stand_2016_Andy_Goodwin.jpg',
+  //     description: 'Despite its urban environment, or perhaps because of it, Chicago has played a very influential role in the advancement of country music. Our homegrown predecessor to the Grand Ole Opry, the legendary WLS National Barn Dance, was one of the first American country radio programs to hit the airwaves in 1924 with a broadcast that could be heard above the fruited plain and across the United States. Fast forward to modern day, and county music’s various streams, from roots rock to alt-country, all lead back to the big lake on the third coast. Join Robbie Fulks and Friends, featuring Music Legends Awards winner Jon Langford, for a celebration of country in the big city.',
+  //     link: '',
+  //     tabs: [
+  //       {  
+  //         tabname: 'Robbie Fulks',
+  //         title: '',
+  //         image: '',
+  //         content: `
+  //         <p>
+  //         	Robbie Fulks plays by nobody's rules--except the ones he hears in his head. He is prodigiously talented, with the soul of a country singer and the mind of a vaudevillian.  Besides, his scorn for the music industry makes ours look positively prosaic. But don't let that make you lose sight of THE SONGS.
+ 	// 				</p>
+ 	// 				<p>
+		// 				Widely regarded by those who monitor such things as one of the most gifted songwriters to ever ply the trade, he can sing the kids ditty "Eggs" and Haggard's "Sing a Sad Song" back to back and mean 'em both. While it is true he started off a honky tonk smartass, it quickly became evident that Robbie was a monster talent and some of his early Bloodshot albums have been rightly elevated to the status of "classic" and serve as their own Greatest Hits collections.  
+ 	// 				</p>
+ 	// 				<p>
+		// 				“…a masterly, multifaceted songwriter who can belt out hip-shaking honky tonk, honeydew pop and chilling little ballads with an unrivaled skill and spirit. So good, he's scary.” - Chicago Tribune
+ 	// 				</p>
+  //        `
+  //       }
+  //     ]
+  //   }
+  // ]
 
   essay = {
     tabs: [
@@ -114,11 +122,17 @@ export class Genre7Component implements OnInit {
     ]
   }
 
-  constructor(private _RouteTitles:RoutesTitles){
+  constructor(private _RouteTitles:RoutesTitles, private genreService:GenreService){
     _RouteTitles.name.next('Country Music in Chicago');
   }
 
   ngOnInit() {
+    this.getGenres();
   }
-
+  getGenres() {
+    this.genreService.getGenres()
+                    .subscribe(
+                       genres => this.genres = genres,
+                       error => this.errorMessage = <any>error);
+  }
 }
