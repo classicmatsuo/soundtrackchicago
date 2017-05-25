@@ -33,7 +33,7 @@ export class Genre3Component implements OnInit {
       date: 'Friday, June 30',
       time: '6-9pm',
       image: 'http://placehold.it/700x200/000000/ffffff?text=JAZZ',
-      description: 'Join Soundtrack Of The City and Old Town School of Folk Music for a night of Chicago Jazz with world renowned ragtime pianist and composer Reginald Robinson with special guest Dee Alexander Quartet.',
+      description: 'A great night of Chicago Jazz in Ellis Park with two incredible, headlining artists: world renowned ragtime pianist and composer Reginald Robinson and gifted vocalist and songwriter Dee Alexander with the Dee Alexander Quartet.',
       link: '',
       tabs: [
         {  

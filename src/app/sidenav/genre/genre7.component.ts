@@ -33,7 +33,7 @@ export class Genre7Component implements OnInit {
       date: 'Sunday, August 20',
       time: '6pm',
       image: '../assets/Robbie_Fulks_Stand_2016_Andy_Goodwin.jpg',
-      description: 'Despite its urban environment, or perhaps because of it, Chicago has played a very influential role in the advancement of country music. Our homegrown predecessor to the Grand Ole Opry, the legendary WLS National Barn Dance, was one of the first American country radio programs to hit the airwaves in 1924 with a broadcast that could be heard above the fruited plain and across the United States. Fast forward to modern day, and county music’s various streams, from roots rock to alt-country, all lead back to the big lake on the third coast. Join Robbie Fulks and Friends, featuring Music Legends Awards winner Jon Langford, for a celebration of country in the big city.',
+      description: 'Despite its urban environment, or perhaps because of it, Chicago has played a very influential role in the advancement of country music. Our homegrown predecessor to the Grand Ole Opry, the legendary WLS National Barn Dance, was one of the first American country radio programs to hit the airwaves in 1924 with a broadcast that could be heard above the fruited plain and across the United States. Fast forward to modern day, and country music’s various streams, from roots rock to alt-country, all lead back to the big lake on the third coast. Join Robbie Fulks and Friends, featuring Music Legends Awards winner Jon Langford, for a celebration of country in the big city.',
       link: '',
       tabs: [
         {  
