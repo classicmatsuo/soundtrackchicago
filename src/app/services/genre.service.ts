@@ -13,19 +13,16 @@ import 'rxjs/add/operator/catch';
 export class GenreService {
   // Resolve HTTP using the constructor
   constructor (private http: Http) {}
-  // private instance variable to hold base url
-  // private commentsUrl = 'http://localhost:3000/api/comments';
-  // private genresUrl = 'https://jsonplaceholder.typicode.com/posts'; 
-  private genresUrl = '../assets/json/data.json';
 
    // Fetch all existing comments
-   getGenres() : Observable<Genre[]>{
+   getGenres(genresUrl:string) : Observable<Genre[]>{
        // ...using get request
-       return this.http.get(this.genresUrl)
+       return this.http.get(genresUrl)
                       // ...and calling .json() on the response to return data
                        .map((res:Response) => res.json())
+                       // .publishReplay(1)
+                       // .refCount()
                        //...errors if any
                        .catch((error:any) => Observable.throw(error.json().error || 'Server error'));
-      
    }
 }

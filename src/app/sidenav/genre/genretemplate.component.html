@@ -1,43 +1,6 @@
-<!-- <div class="card-container">
-  <md-card *ngFor="let event of events; index as i;" class="{{event.genre}}">
-    <md-card-header>
-      <div md-card-avatar class="event{{i +1}}image"></div>
-      <md-card-title class="tk-sofia-pro-soft">
-        <h3 class="tk-sofia-pro-soft">{{event.date}} {{event.time}}</h3>
-        {{event.location}}
-        <h2 class="tk-sofia-pro-soft">{{event.title}}</h2>
-      </md-card-title>
-      <md-card-subtitle>
-        {{event.lead}}<br>
-        <em>{{event.admission}}</em>
-      </md-card-subtitle>
-    </md-card-header>
-    <img class="card-image" src="{{event.image}}">
-    <md-card-content>
-      <p>
-        {{event.description}}
-      </p>
-      <p *ngIf="event.link">
-        <a href="{{event.link}}" target="_blank">{{event.link}}</a>
-      </p>
-      <md-tab-group dynamicHeight *ngIf="event.tabs">
-        <md-tab *ngFor="let tab of event.tabs">
-          <ng-template md-tab-label class="tab-label">
-            {{tab.tabname}}
-          </ng-template>
-          <h4>{{tab.title}}</h4>
-          <img *ngIf="tab.image" class="card-image" src="{{tab.image}}">
-          <div [innerHTML]="tab.content">
-            
-          </div>
-        </md-tab>
-      </md-tab-group>
-    </md-card-content>
-  </md-card>
-</div> -->
 
-<div class="card-container">
-  <md-card *ngFor="let genre of genreEvents.genres; index as i;" class="{{genre.genre}}">
+<div class="card-container" *ngIf="genres?.id">
+  <md-card *ngFor="let genre of genres.genreEvents; index as i;" class="{{genre.genre}}">
     <md-card-header>
       <div md-card-avatar class="event{{i +1}}image"></div>
       <md-card-title class="tk-sofia-pro-soft">
@@ -46,26 +9,25 @@
         <h2 class="tk-sofia-pro-soft">{{genre.title}}</h2>
       </md-card-title>
       <md-card-subtitle>
-        {{genre.lead}}<br>
+        <span *ngIf="genre.lead">{{genre.lead}}</span><br>
         <em>{{genre.admission}}</em>
       </md-card-subtitle>
     </md-card-header>
-    <img class="card-image" src="{{genre.image}}">
+    <img *ngIf="genre.image" class="card-image" src="{{genre.image}}">
     <md-card-content>
-      <p>
-        {{genre.description}}
+      <p *ngIf="genre.description" [innerHTML]="genre.description">
       </p>
       <p *ngIf="genre.link">
         <a href="{{genre.link}}" target="_blank">{{genre.link}}</a>
       </p>
-      <md-tab-group dynamicHeight *ngIf="genre.tabs">
+      <md-tab-group dynamicHeight *ngIf="genre?.tabs">
         <md-tab *ngFor="let tab of genre.tabs">
           <ng-template md-tab-label class="tab-label">
             {{tab.tabname}}
           </ng-template>
           <h4>{{tab.title}}</h4>
           <img *ngIf="tab.image" class="card-image" src="{{tab.image}}">
-          <div [innerHTML]="tab.content">
+          <div *ngIf="tab.content" [innerHTML]="tab.content">
             
           </div>
         </md-tab>
@@ -74,11 +36,12 @@
   </md-card>
 </div>
 
-<div class="card-container" *ngIf="essay">
+
+<div class="card-container" *ngIf="genres?.genreEssay">
   <md-card>
     <md-card-content>
       <md-tab-group dynamicHeight>
-        <md-tab *ngFor="let tab of essay.tabs;">
+        <md-tab *ngFor="let tab of genres.genreEssay;">
           <ng-template md-tab-label class="tab-label">
             {{tab.tabname}}
           </ng-template>
@@ -93,26 +56,7 @@
   </md-card>
 </div>
 
-
-<!-- <div class="card-container">
-  <md-card *ngFor="let genre of genres">
-    <md-card-header>
-      <div md-card-avatar class=""></div>
-      <md-card-title class="tk-sofia-pro-soft">
-        <h3 class="tk-sofia-pro-soft">{{genre.userId}} {{genre.id}}</h3>
-        <h2 class="tk-sofia-pro-soft">{{genre.title}}</h2>
-      </md-card-title>
-    </md-card-header>
-    <md-card-content>
-      <p>
-        {{genre.body}}
-      </p>
-      
-    </md-card-content>
-  </md-card>
-</div>
- -->
-
+<p class="error" *ngIf="errorMessage">{{errorMessage}}</p>
 
 
 

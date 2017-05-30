@@ -1,5 +1,8 @@
 export class Genre {
+
 	constructor(
+		public id: number,
+		public genreEvents: object,
 	  	public genre: string,
 	  	public title: string,
 	  	public lead: string,
@@ -9,13 +12,10 @@ export class Genre {
 	  	public time: string,
 	  	public image: string,
 	  	public description: string,
-	  	public link: string
-  	){}
- //  	constructor(
-	// 	public userId: number,
-	//     public id: number,
-	//     public title: string,
-	//     public body: string
-	// ){}
-  	
+	  	public link: string,
+	  	public tabs: object,
+	  	public tabname: string,
+	  	public content: string,
+	  	public genreEssay: object
+  	){}  	
 }
