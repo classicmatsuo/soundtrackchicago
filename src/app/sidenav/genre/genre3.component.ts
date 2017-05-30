@@ -33,7 +33,7 @@ export class Genre3Component implements OnInit {
       date: 'Friday, June 30',
       time: '6-9pm',
       image: 'http://placehold.it/700x200/000000/ffffff?text=JAZZ',
-      description: 'A great night of Chicago Jazz in Ellis Park with two incredible, headlining artists: world renowned ragtime pianist and composer Reginald Robinson and gifted vocalist and songwriter Dee Alexander with the Dee Alexander Quartet.',
+      description: '<p>A great night of Chicago Jazz in Ellis Park with two incredible, headlining artists: world renowned ragtime pianist and composer Reginald Robinson and gifted vocalist and songwriter Dee Alexander with the Dee Alexander Quartet.</p><p>At tonight’s concert, The Chicago Blues Museum will host a special presentation of selected displays from their “Chicago Jazz”  exhibit which focuses on homegrown jazz musicians, entertainers, and performers with a connection to Chicago and Bronzeville as well as places and companies where Chicago Jazz originated and evolved. Images and footage celebrate the big band battles at the Savoy Ballroom, the Club DeLisa, which showcased the legendary Louis Armstrong, Count Basie, Joe Williams, Billy Eckstine, Sun Ra, and many others, and the Sutherland Lounge, the center of the city’s experimental jazz scene during the fifties and sixties, which hosted such legendary jazz performers as Miles Davis, Dizzy Gillespie, John Coltrane, and Dinah Washington.</p>',
       link: '',
       tabs: [
         {  

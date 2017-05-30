@@ -14,8 +14,7 @@
     </md-card-header>
     <img class="card-image" src="{{event.image}}">
     <md-card-content>
-      <p>
-        {{event.description}}
+      <p [innerHTML]="event.description">
       </p>
       <p *ngIf="event.link">
         <a href="{{event.link}}" target="_blank">{{event.link}}</a>

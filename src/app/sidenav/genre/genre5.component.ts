@@ -31,13 +31,13 @@ export class Genre5Component implements OnInit {
       admission: 'Free & open to the public, Rain or Shine',
       location: 'Marquette Park (6743 S. Kedzie Ave)',
       date: 'Saturday, July 22',
-      time: '6-8pm',
+      time: '2-6pm',
       image: '../assets/Holy Vessel Choir.jpg',
-      description: 'Gospel and the Freedom Trail features a concert with gospel icon Dr. Lena McLin, the Chicago Christian Choir, and various Chicago Gospel luminaries. Master of Ceremonies in Sonya Blakey, the Program Director and On-Air Host at GospelRadio 1390, will lead a discussion on Chicago Gospel from the stage with special guests.',
+      description: 'Gospel and the Freedom Trail features a concert with gospel icon Dr. Lena McLin, the Chicago Christian Choir, Dexter Walker & Zion Movement, and various Chicago Gospel luminaries. Master of Ceremonies Sonya Blakey, the Program Director and On-Air Host at GospelRadio 1390, will lead a discussion on Chicago Gospel from the stage with special guests.',
       link: '',
       tabs: [
         {  
-          tabname: 'Bio',
+          tabname: 'Baptist Church Choir',
           title: 'Dr. Lena McLin & the Holy Vessel Baptist Church Choir',
           image: '../assets/Dr. Lena.jpg',
           content: `
@@ -54,6 +54,12 @@ export class Genre5Component implements OnInit {
               The HVBCC is founded and directed by the award-winning composer, musician and educator Dr. Lena J. McLin. Dr. McLin is the niece of the ‘Father of Gospel Music’ Thomas A Dorsey. Dr. McLin taught in Chicago Public Schools for 36 years, and she was featured in the PBS documentary “This Far By Faith”.
           </p>
          `
+        },
+        {  
+          tabname: 'Chicago Christian Choir',
+          title: 'Chicago Christian Choir',
+          image: '../assets/chicagochristianchoir.jpg',
+          content: `<p>Chicago Christian Choir is a multi-cultural performance choir whose mission is to spread the Good News of Love through choral, gospel, and jazz vocal music. </p>`
         }
       ]
     }
