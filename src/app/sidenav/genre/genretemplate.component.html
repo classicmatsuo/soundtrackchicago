@@ -15,11 +15,7 @@
     </md-card-header>
     <img *ngIf="genre.image" class="card-image" src="{{genre.image}}">
     <md-card-content>
-<<<<<<< HEAD
-      <p [innerHTML]="event.description">
-=======
       <p *ngIf="genre.description" [innerHTML]="genre.description">
->>>>>>> httprequest
       </p>
       <p *ngIf="genre.link">
         <a href="{{genre.link}}" target="_blank">{{genre.link}}</a>
