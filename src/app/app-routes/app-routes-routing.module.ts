@@ -17,7 +17,6 @@ const routes: Routes = [
 	},
 	{ path: 'about', component: AboutComponent },
 	{ path: 'sponsors', component: SponsorsComponent },
-
 	{ path: '', pathMatch: 'full', redirectTo: 'home' }
 ];
 
