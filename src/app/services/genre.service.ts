@@ -9,6 +9,9 @@ import { Observable } from 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
+// import 'rxjs/add/operator/timeout';
+// import 'rxjs/add/operator/delay';
+
 @Injectable()
 export class GenreService {
   // Resolve HTTP using the constructor
@@ -19,6 +22,8 @@ export class GenreService {
        // ...using get request
        return this.http.get(genresUrl)
                       // ...and calling .json() on the response to return data
+                       // .timeout(1000)
+                       // .delay(10)
                        .map((res:Response) => res.json())
                        // .publishReplay(1)
                        // .refCount()
