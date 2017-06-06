@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
-##DevTeam Notes
+## DevTeam Notes
 
 Copy git repo `git clone https://github.com/classicmatsuo/soundtrackchicago.git`. Run 'ng serve' to spin a dev server, open browser to localhost:4200 to preview changes. Make changes to files in `src/app/`, and when you're ready to build a production package, run `ng build --target=production --environment=prod --aot=false`, this will create a folder named 'dist', move the files that are in the dist folder to replace any in ftp server.
 
