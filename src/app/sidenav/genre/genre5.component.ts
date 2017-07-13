@@ -18,7 +18,7 @@ import { GenreService } from '../../services/genre.service';
 		background-image: url('../../assets/sotclogos/icons/SOTC_icons_blue_gospel.png');
 		background-size: cover;
 	}
-	.card-image {
+	.card-image, :host /deep/ .parkMap {
 		max-width: 100%;
 		margin-bottom: 16px;
 	}

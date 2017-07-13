@@ -10,7 +10,7 @@ import { GenreService } from '../../services/genre.service';
   providers: [ GenreService ],
   styles: [
   `
-  	.genre4 {
+  .genre4 {
 		margin: 1% auto;
 		max-width: 700px;
 	}
@@ -22,6 +22,12 @@ import { GenreService } from '../../services/genre.service';
 		max-width: 100%;
 		margin-bottom: 16px;
 	}
+  :host /deep/ .sqrt {
+    margin: 1em 0.5em;
+  }
+  :host /deep/ p a {
+    white-space: nowrap;
+  }
   `
   ]
 })
