@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
+This project was to for [Soundtrack of the City](http://www.soundtrackchicago.org). In the summer of 2017, Old Town School of Folk hosted free shows across the city celebrating house, blues, jazz, folk, gospel, durangeunse, and country genre music.
+
+![soundtrackchicago](https://raw.githubusercontent.com/classicmatsuo/soundtrackchicago/master/soundtrackchicago.png)
+
+
 ## DevTeam Notes
 1. Fork this repo.
 2. Clone your new forked repo `git clone https://github.com/YOUR-USERNAME/soundtrackchicago.git`.
